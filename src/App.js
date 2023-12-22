@@ -1,14 +1,9 @@
-
-import './App.css';
-
-function App() {
+import React from 'react';
+import Body from './components/Body';
+export function App() {
   return (
-    <div className="text-3xl font-bold text-green-800">
-     Namaste Everyone, let's build netflix gpt
-     
-      
-    </div>
-  );
+   <Body/>
+   );
 }
 
 export default App;
